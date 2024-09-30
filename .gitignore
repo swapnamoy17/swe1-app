@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# If you're using PostgreSQL or MySQL locally
+*.pgdata
+*.mysql
+
+# Django specific static and media files
+/static/
+media/
+
+# Django secret key and environment variables
+.env
+*.env
+
+# Ignore migrations (if you want, although migrations should often be committed)
+**/migrations/
+
+# PyCharm project settings
+.idea/
+
+# VSCode project settings
+.vscode/
+
+# Sublime Text project settings
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+nosetests.xml
+pytest_cache/
+test-results/
+xunit.xml
+
+# MySQL dumps
+*.sql
+
+# Docker
+*.dockerfile
+docker-compose.yml
+.dockerignore
+
+# AWS Elastic Beanstalk
+.elasticbeanstalk/
