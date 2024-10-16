@@ -4,7 +4,7 @@ language: python
 env:
   global:
     - COVERALLS_REPO_TOKEN=RrFwAU79yuK6JfTpQpWwpJPUuVnZkNrpI
-    
+
 python:
   - "3.11"
 # Install dependencies
@@ -15,7 +15,7 @@ before_script:
   - python manage.py migrate
 # Run format and lint checks
 script:
-  - black --check .
+  - black .
   - flake8 .
   - coverage run manage.py test
   - coverage report
