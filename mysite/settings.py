@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-(y(8(94=g9yxjbk3=5(q1930c*2z(a6rpku+)ymurpmz3j-bw6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['se-assignment1-dev.us-east-1.elasticbeanstalk.com/', '127.0.0.1', '*']
+ALLOWED_HOSTS = ["se-assignment1-dev.us-east-1.elasticbeanstalk.com/", "127.0.0.1", "*"]
 
 # Application definition
 
@@ -118,7 +118,7 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 # Directory where static files will be collected
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
