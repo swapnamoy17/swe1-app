@@ -28,9 +28,9 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: us-east-1
-  app: mysite
-  env: def-env
-  bucket_name: 'elasticbeanstalk-us-east-1-897722690729'
+  app: SE-Assignmnet-2
+  env: se-hw-2-env
+  bucket_name: 'elasticbeanstalk-us-east-1-590183680251'
   on:
     all_branches: true
 #    repo: allen505/swe1-app
