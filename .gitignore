@@ -39,7 +39,6 @@ env/
 *.pyo
 *.pyd
 *.db
-*.sqlite3
 
 # If you're using PostgreSQL or MySQL locally
 *.pgdata
