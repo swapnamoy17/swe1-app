@@ -1,5 +1,10 @@
 dist: focal
 language: python
+
+env:
+  global:
+    - COVERALLS_REPO_TOKEN=RrFwAU79yuK6JfTpQpWwpJPUuVnZkNrpI
+    
 python:
   - "3.11"
 # Install dependencies
@@ -17,10 +22,7 @@ script:
   - coveralls
 #before_deploy:
 #  - python manage.py migrate
-env:
-  global:
-    - COVERALLS_REPO_TOKEN=RrFwAU79yuK6JfTpQpWwpJPUuVnZkNrpI
-    
+
 deploy:
   provider: elasticbeanstalk
   access_key_id: $AWS_ACCESS_KEY_ID
